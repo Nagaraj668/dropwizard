@@ -1,6 +1,6 @@
 template: Hello, %s!
 
-defaultName: Config
+defaultName: ${DW_DEFAULT_NAME:-config}
 
 server:
   #  softNofileLimit: 1000
