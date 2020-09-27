@@ -11,7 +11,7 @@ public class AppConfiguration extends Configuration {
     @NotEmpty
     private String template;
     @NotEmpty
-    private String defaultName;
+    private String defaultName = "config";
 
     @JsonProperty
     public String getTemplate() {
