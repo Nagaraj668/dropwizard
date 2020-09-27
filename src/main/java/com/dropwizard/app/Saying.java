@@ -17,12 +17,14 @@ public class Saying {
     }
 
     @JsonProperty
-    public void setId(long id) {
-        this.id = id;
+    public long getId() {
+        return id;
     }
 
     @JsonProperty
-    public void setContent(String content) {
-        this.content = content;
+    public String getContent() {
+        return content;
     }
+
+
 }
